@@ -1,16 +1,19 @@
-# This is a sample Python script.
+#DATA STRUCTURES AND ALGORITHMS 1
+#ARRAYS
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from array import *
+nums=array('i',[10,20,30,40,50])
+
+#for x in nums:
+#    print(x)
+print(nums[0])
+print(nums[3])
+#operations
+nums.insert(1,21) #insert 21 at indx [1]
+nums.remove(40)
+y=nums.index(10) #returns the index position of value 10
+nums[4]=100 #updates the value at index [4] to 100
+print(nums)
+print(y)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
